@@ -1,4 +1,10 @@
-name = "turnstile-demo-workers"
+name = "turnstile-verifier"
+main = "src/index.mjs"
 workers_dev = true
 
 compatibility_date = "2022-09-26"
+
+[vars]
+#TS_SECRET_KEY
+
+#Rellenar esta variable con el valor de la variable TS_SECRET_KEY con el comando "wrangler secret put TS_SECRET_KEY"

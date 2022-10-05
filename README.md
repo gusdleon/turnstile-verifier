@@ -1,8 +1,6 @@
-# Turnstile Demo: Workers
+# Turnstile-verifier: Workers
 
-A simple demo with a Turnstile-protected form, using Cloudflare Workers.
-
-With the code in this repository, we demonstrate [implicit rendering] and [explicit rendering].
+A simple turnstile-verifier backend using Cloudflare Workers.
 
 ## Setup
 
@@ -27,9 +25,9 @@ npm run dev
  ⛅️ wrangler 2.1.7
 -------------------
 ⎔ Starting a local server...
-╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
-│ [b] open a browser, [d] open Devtools, [l] turn off local mode, [c] clear console, [x] to exit                                                                                │
-╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+╭────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ [b] open a browser, [d] open Devtools, [l] turn off local mode, [c] clear console, [x] to exit │
+╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
 Then press `b` to open the demo page in your browser.
@@ -45,11 +43,8 @@ $ npm run deploy
  ⛅️ wrangler 2.1.7
 -------------------
 Total Upload: 2.94 KiB / gzip: 1.33 KiB
-Uploaded turnstile-demo-workers (2.07 sec)
-Published turnstile-demo-workers (1.66 sec)
-  https://turnstile-demo-workers....workers.dev
+Uploaded turnstile-verifier (2.07 sec)
+Published turnstile-verifier (1.66 sec)
+  https://turnstile-verifier....workers.dev
 
 ```
-
-[implicit rendering]: https://demo.turnstile.workers.dev/
-[explicit rendering]: https://demo.turnstile.workers.dev/explicit
