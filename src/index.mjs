@@ -34,7 +34,7 @@ export default {
         if (request.method === 'POST') {
             return await handlePost(request, env);
         } else {
-            return new Response("Only POST requests are allowed here.", { status: 405 });
+            return new Response("Sorry, only POST requests are allowed here.", { status: 405 });
         }
     },
 };
