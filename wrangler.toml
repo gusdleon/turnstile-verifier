@@ -4,6 +4,9 @@ workers_dev = true
 
 compatibility_date = "2022-09-26"
 
+[placement]
+mode = "smart"
+
 [vars]
 #TS_SECRET_KEY
 
