@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"devDependencies": {
-		"wrangler": "4.33.1"
+		"wrangler": "4.40.3"
 	},
 	"scripts": {
 		"deploy": "wrangler publish",
